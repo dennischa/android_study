@@ -39,7 +39,7 @@ public class MyLocation extends Service implements LocationListener {
     private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 10;
 
     // 최소 GPS 정보 업데이트 시간 밀리세컨이므로 15분, 위치 정보를 한번 받고 최소 15분후 받는다.
-    private static final long MIN_TIME_BW_UPDATES = 1000 * 60 * 15;
+    private static final long MIN_TIME_BW_UPDATES = 1000 * 60 * 1;
 
     protected LocationManager locationManager;
 
