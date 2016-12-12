@@ -19,7 +19,7 @@ public class Add extends Activity {
     String strCurTime = CurTimeFormat.format(date);
 
     public String getDate(){
-        return strCurDate;
+        return strCurDate + "@";
     }
     public String gettime(){
         return strCurTime;
