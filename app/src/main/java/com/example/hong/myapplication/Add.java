@@ -21,8 +21,5 @@ public class Add extends Activity {
     public String getDate(){
         return strCurDate + "@";
     }
-    public String gettime(){
-        return strCurTime;
-    }
 
 }
